@@ -4,7 +4,7 @@ A secure, event-driven smart home environment designed and implemented in Cisco 
 
 By integrating security monitoring, environmental sensing, and automated device control, the platform demonstrates how modern IoT technologies can work together to improve convenience, visibility, and operational efficiency while maintaining secure network boundaries.
 
-![Smart Home Network Topology](assets/Smart_Home_Network_Topology.png)
+![Smart Home Network Topology](Smart_Home_Network_Topology.png)
 
 ---
 
@@ -51,7 +51,7 @@ When the temperature rises above **25°C**:
 
 These rules enable the environment to react dynamically to both security and environmental conditions.
 
-![Automation Rules](assets/IOT_Automation_Rules.png)
+![Automation Rules](IOT_Automation_Rules.png)
 
 ---
 
@@ -61,7 +61,7 @@ Automation within the smart home is extended through Python-based logic running 
 
 The SBC reads device states and executes control actions, providing an additional layer of programmable intelligence beyond standard IoT automation rules. This approach enables custom behaviour and demonstrates how software-driven decision making can be integrated directly into connected environments.
 
-![Python Automation](assets/SBC_Python_Automation.png)
+![Python Automation](SBC_Python_Automation.png)
 
 ---
 
@@ -93,7 +93,7 @@ The environment was validated through multiple connectivity and communication te
 | PC1 | PC2 | Successful |
 | Registrar Server | Laptop | Blocked by NAT (Expected Behaviour) |
 
-![Connectivity Testing](assets/Connectivity_Testing.png)
+![Connectivity Testing](Connectivity_Testing.png)
 
 The successful test results confirm reliable communication between network segments, IoT devices, infrastructure services, and remote endpoints while preserving the intended security boundaries.
 
